@@ -30,19 +30,19 @@ ScHiCAtt runs in a Docker-containerized environment. Follow these steps to set u
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/YourUsername/ScHiCAtt.git && cd ScHiCAtt
+git clone https://github.com/OluwadareLab/ScHiCAtt.git && cd ScHiCAtt
 ```
 
 2. Pull the ScHiCAtt Docker image:
 
 ```bash
-docker pull yourdockerhub/schicatt:latest
+docker pull oluwadarelab/schicatt:latest
 ```
 
 3. Run the container and mount the present working directory to the container:
 
 ```bash
-docker run --rm --gpus all -it --name schicatt -v ${PWD}:${PWD} yourdockerhub/schicatt
+docker run --rm --gpus all -it --name schicatt -v ${PWD}:${PWD} oluwadarelab/schicatt
 ```
 
 4. You can now navigate within the container and run the model.
