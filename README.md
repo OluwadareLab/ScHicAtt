@@ -1,5 +1,5 @@
 
-# ScHiCAtt: Single-Cell Hi-C Data Enhancement Using Attention Mechanisms
+# ScHiCAtt: Enhancing Single-Cell Hi-C Data Resolution Using Attention-Based Models
 
 ___________________  
 #### OluwadareLab, University of Colorado, Colorado Springs  
