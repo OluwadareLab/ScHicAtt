@@ -88,6 +88,13 @@ ___________________
 
 All the analysis scripts are available at **analysis** folder
 ### TAD Plots
+#### TAD detection with deDoc2
+* We used `https://github.com/zengguangjie/deDoc2` for TAD detection from scHiC data. We used lower TAD-like domains.
+* Download the **doDoc2**
+* Edit the necessary variables in `call_tads.py` script such as *INPUT_FILEPATH* and adjust other things as necessary.
+* Run `python3 call_tads.py`
+
+#### TAD plot
 * We used `https://xiaotaowang.github.io/TADLib/index.html` to produce the TAD figures.
 * Here, we provided a sample python script `draw_tad_plots.py` to produce the plots. Update *INPUT_FILEPATH*, *MATRIX_FILEPATH*, *FILENAMES*, *CHROMOSOMES*, *ALGORITHMS*, *OUTPUT_PATH*.
 * It takes matrix and TADs as input. TAD file structure should be (without heading):
