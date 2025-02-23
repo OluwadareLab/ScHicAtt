@@ -94,11 +94,11 @@ All the analysis scripts are available at **analysis** folder
 
 | Chromosome | Start Position | End Position |
 |------------|----------------|--------------|
-| chr12      | 80,000         | 1,960,000    |
-| chr12      | 2,000,000      | 2,720,000    |
-| chr12      | 2,760,000      | 4,040,000    |
-| chr12      | 4,080,000      | 5,480,000    |
-| chr12      | 5,520,000      | 5,720,000    |
+| chr12      | 80000         | 1960000    |
+| chr12      | 2000000      | 2720000    |
+| chr12      | 2760000      | 4040000    |
+| chr12      | 4080000      | 5480000    |
+| chr12      | 5520000      | 5720000    |
 
 * Run `python3 draw_tad_plots.py`
    
