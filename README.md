@@ -90,10 +90,8 @@ All the analysis scripts are available at **analysis** folder
 ### TAD Plots
 * We used `https://xiaotaowang.github.io/TADLib/index.html` to produce the TAD figures.
 * Here, we provided a sample python script `draw_tad_plots.py` to produce the plots. Update *INPUT_FILEPATH*, *MATRIX_FILEPATH*, *FILENAMES*, *CHROMOSOMES*, *ALGORITHMS*, *OUTPUT_PATH*.
-* It takes matrix and TADs as input. TAD file structure should be (without heading):
+* It takes matrix and TADs as input. TAD file structure should be:
 
-| Chromosome | Start Position | End Position |
-|------------|----------------|--------------|
 | chr12      | 80,000         | 1,960,000    |
 | chr12      | 2,000,000      | 2,720,000    |
 | chr12      | 2,760,000      | 4,040,000    |
