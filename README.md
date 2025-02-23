@@ -82,7 +82,18 @@ $ python training/train.py --epoch 300 --batch_size 8 --attention self
 
 This will output `.pytorch` checkpoint files containing the trained weights. The best model is saved as `bestg.pytorch`, and the final model is saved as `finalg.pytorch`.
 
+___________________  
 
+## Analysis
+All the analysis scripts are available at **analysis** folder
+### TAD Plots
+1. We used `https://xiaotaowang.github.io/TADLib/index.html` to produce the TAD figures.
+2. Here, we provided a sample python script `draw_tad_plots.py` to produce the plots. Update *INPUT_FILEPATH*, *MATRIX_FILEPATH*, *FILENAMES*, *CHROMOSOMES*, *ALGORITHMS*, *OUTPUT_PATH*.
+3. Run `python3 draw_tad_plots.py`
+   
+### L2 norm
+1. Edit draw_l2_norm.py with your filenames and paths including *MATRIX_FILEPATH*, *FILENAMES*, *CHROMOSOMES*, *ALGORITHMS*.
+2. Run `python3 draw_l2_norm.py`
 
 ___________________  
 
